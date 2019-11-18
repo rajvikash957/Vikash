@@ -1,0 +1,9 @@
+num=int(input("Enter the range of number:"))
+sum_of_square=0
+square_of_sum=0
+for num in range(1,num+1):
+    sum_of_square+=num*num
+    square_of_sum+=num
+square_of_sum=square_of_sum**2
+result=square_of_sum-sum_of_square
+print(result)

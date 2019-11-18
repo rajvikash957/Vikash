@@ -1,0 +1,4 @@
+import re
+email='hello@example user@domain.com her323@#89asdf.fds'
+result=re.findall('\S+@\S+.com',email)
+print(result)
